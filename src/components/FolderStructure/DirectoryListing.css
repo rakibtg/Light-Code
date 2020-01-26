@@ -1,0 +1,33 @@
+@import "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css";
+
+.directory_listing_wrapper {
+  height: 100%;
+  user-select: none;
+  resize: horizontal;
+  overflow: auto;
+}
+
+.directory_listing_wrapper .default_folder_items_style {
+  padding: 2px 5px;
+  cursor: pointer;
+  color: #333;
+}
+
+.directory_listing_wrapper .default_folder_items_style:hover {
+  background-color: rgba(25, 25, 25, 0.1);
+}
+
+.directory_listing_wrapper .default_folder_items_style .item_name{
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.directory_listing_wrapper .folder_items_container .item_icon {
+  width: 8px;
+  padding-right: 5px;
+}
+
+.directory_listing_wrapper .folder_items_container {
+  display: flex;
+  align-items: center;
+}
