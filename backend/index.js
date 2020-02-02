@@ -20,7 +20,7 @@ app.get("/", async (req, res) => {});
 app.post("/files", fileExplorerController.index);
 
 getPort().then(port => {
-  app.listen(4000, () =>
-    console.log(`Example app listening on port http://localhost:4000!`)
+  app.listen(4701, () =>
+    console.log(`Example app listening on port http://localhost:4701!`)
   );
 });
